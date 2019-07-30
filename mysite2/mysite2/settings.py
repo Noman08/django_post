@@ -11,7 +11,6 @@ https://docs.djangoproject.com/en/2.2/ref/settings/
 """
 
 import os
-
 # Build paths inside the project like this: os.path.join(BASE_DIR, ...)
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 
@@ -31,6 +30,7 @@ ALLOWED_HOSTS = []
 # Application definition
 
 INSTALLED_APPS = [
+    'posts',
 
     'django.contrib.admin',
     'django.contrib.auth',
@@ -55,7 +55,7 @@ ROOT_URLCONF = 'mysite2.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': [],
+        'DIRS': [r'C:\Users\Noman\PycharmProjects\django\mysite2\posts\templates'],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
