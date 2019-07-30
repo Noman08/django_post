@@ -1,0 +1,9 @@
+ <ul class="nav nav-tabs">
+					<li class="active"><a data-toggle="tab" href="#home">HOME</a></li>
+					<li ><a data-toggle="tab" href="#menu1">Make Question</a></li>
+					<li><a data-toggle="tab" href="#menu2">Set Time </a></li>
+					<li><a data-toggle="tab" href="#menu3">Subject </a></li>
+					<li><a data-toggle="tab" href="#menu2">Release </a></li>
+					<li><a data-toggle="tab" href="#menu2">Result </a></li>
+					<li style="float:right"><a data-toggle="tab" href="#menu3">Logout</a></li>
+				  </ul>
